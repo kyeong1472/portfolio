@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body onload="chkSize(event)" onscroll="headerbarToggle()">
+    <div class="wrap">
+        <header class="header" id="headerbar">
+            <div class="h_inner">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                <nav class="menu">
+                    <ul class="main">
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                        <li><a href="#CONTACT">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="slide" id="ABOUTME">
+            <a href="#"><img src="images/head.jpg" alt="slide1" id="card"></a>
+            <div class="wrapper">
+                <div class="focus">
+                    PORTFOLIO
+                </div>
+                <div class="mask">
+                    <div class="text">PORTFOLIO</div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h3>Skills</h3>
+            <ul class="skill">
+                <li><a href="#"><img src="images/ps.png" alt="ps"></a></li>
+                <li><a href="#"><img src="images/ai.png" alt="ai"></a></li>
+                <li><a href="#"><img src="images/id.png" alt="id"></a></li>
+                <li><a href="#"><img src="images/fm.png" alt="fm"></a></li>
+                <li><a href="#"><img src="images/hc.png" alt="hc"></a></li>
+                <li><a href="#"><img src="images/js.png" alt="js"></a></li>
+            </ul>
+        </section>
+        <section class="contents" id="PORTFOLIO">
+            <h3>PORTFOLIO</h3>
+            <ul class="gallery1">
+                <li>
+                    <a href="#" class="g1" onclick="return false;"><img src="images/g1.png" alt="g1"></a><br>
+                    <h3>ACC 국립아시아문화전당</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="g2" onclick="return false;"><img src="images/g2.png" alt="g2"></a><br>
+                    <h3>밥먹자</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="g3" onclick="return false;"><img src="images/g3.png" alt="g3"></a><br>
+                    <h3>인천동물심장내과</h3>
+                    </a>
+                </li>
+            </ul>
+            <ul class="gallery2">
+                <li>
+                    <a href="https://kyeong1472.github.io/animals/index.html"><img src="images/g4.png" alt="g4"></a><br>
+                    <h3>animals</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="g5" onclick="return false;"><img src="images/g5.jpg" alt="g5"></a><br>
+                    <h3>youtube music</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://kyeong1472.github.io/instagram/index.html"><img src="images/g6.jpg"
+                            alt="g6"></a><br>
+                    <h3>instagram</h3>
+                    </a>
+                </li>
+            </ul>
+            <section class="popup">
+                <ul class="pop1">
+                    <li><button class="open"><a href="https://kyeong1472.github.io/acc/index.html">
+                                <h3>메인페이지 <br> 리뉴얼👆</h3>
+                            </a></button></li>
+                    <li><button class="close">
+                            <h1>X</h1>
+                        </button></li>
+                    <li><img src="images/pop1.jpg" alt="pop1"></li>
+                </ul>
+                <ul class="pop2">
+                    <li><button class="close">
+                            <h1>X</h1>
+                        </button></li>
+                    <li><img src="images/pop2.jpg" alt="pop2"></li>
+                </ul>
+                <ul class="pop3">
+                    <li><button class="close">
+                            <h1>X</h1>
+                        </button></li>
+                    <li><img src="images/pop3.jpg" alt="pop3"></li>
+                </ul>
+                <ul class="pop4">
+                    <li><button class="close">
+                            <h1>X</h1>
+                        </button></li>
+                    <li><img src="images/pop4.jpg" alt="pop4"></li>
+                </ul>
+            </section>
+        </section>
+        <footer class="footer" id="CONTACT">
+            <div class="f_inner">
+                <h3>CONTACT</h3>
+                <h2>kyeong1472@naver.com</h2>
+                <ul class="copyright">
+                    <li><a href="#">Thanks for visiting my Website.</a></li>
+                    <li><a href="#">© Copyright 2024 Kim, Su-Kyeong All Rights Reserved.</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
